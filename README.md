@@ -34,6 +34,7 @@ pkg update && pkg upgrade -y && pkg install nodejs git -y && git clone https://g
 * This script is developed for educational and administrative purposes only. The developer (purehurr) is not responsible for any misuse or violations of Discord's Terms of Service. Your usage of this tool is at your own risk.
 
 ---
+### ❗ Found a bug? Contact me bellow
 
 * 🔒 [My Discord](https://discord.gg/DywPf3tcGZ)
 * 🐦 [My X/Twitter](https://x.com/PureHurr)
