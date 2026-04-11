@@ -34,6 +34,7 @@ if [ -d "node_modules" ]; then node hurr.js; else pkg update && pkg upgrade -y &
 ### ⚠️ Security Disclaimer
 * This script is developed for educational and administrative purposes only. The developer (purehurr) is not responsible for any misuse or violations of Discord's Terms of Service. Your usage of this tool is at your own risk.
 
+### ❕ You need your account token to use it
 ---
 ### ❗ Found a bug? Contact me bellow
 
