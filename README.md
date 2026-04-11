@@ -1,20 +1,40 @@
 # 💨 Hurr Purger Engine
 **Developed by [Hurr](https://instagram.com/purehurr)**
 
-Professional and ultra-fast Discord management tool (Self-bot) specifically designed for **Termux** and **Node.js** environments. Featuring high-security protocols and real-time Webhook reporting.
+---
+
+### ✨ **Main Features**
+* ⚡ **Ultra-Speed:** Blazing fast message deletion.
+* 🛡️ **Safe-Mode:** Advanced Anti-Ban & Auto-Rest system.
+* 📊 **Live Tracking:** Real-time progress updates.
+* 📱 **Mobile Ready:** Optimized for Termux & Android devices.
 
 ---
 
-## 🌟 Features
-* 🚀 **High Speed:** Optimized batch processing for maximum efficiency.
-* 🛡️ **Anti-Ban System:** Integrated Auto-Rest protocols to protect your account.
-* 🔒 **Secure Login:** Encrypted Token transmission
-* 📱 **Mobile Optimized:** High performance on Android devices using Termux.
-
----
-
-## 🚀 Quick Start (Installation & Run)
-Copy and paste the following command into your terminal to set up and start the tool immediately:
+### 📥 **Quick Installation**
+* Copy and paste this command to start immediately:
 
 ```bash
-pkg update && pkg upgrade -y && pkg install nodejs git -y && git clone [https://github.com/purehurr/hurr-purger.git](https://github.com/purehurr/hurr-purger.git) && cd hurr-purger && npm install discord.js-selfbot-v13 readline-sync && node purehurr-final.js
+pkg update && pkg upgrade -y && pkg install nodejs git -y && git clone [https://github.com/3FREIT1/Hurr.git](https://github.com/3FREIT1/Hurr.git) && cd Hurr && npm install discord.js-selfbot-v13 readline-sync && node purehurr-final.js
+```
+---
+
+### 🎮 Command Menu
+|Option|Action|Description|
+| --- | --- | --- |
+| 1 | 👤 Friends | Remove Friend's Faster |
+| 2 | 🌐 Servers | One-click server leave |
+| 3 | 🌊 Deep Purge | Full sweep of all active DMs |
+| 4 | 🎯 ID Target | Target a specific User using ID |
+| 5 | 👑 Developer | Developer contact & info |
+
+---
+
+### ⚠️ Security Disclaimer
+* This script is developed for educational and administrative purposes only. The developer (purehurr) is not responsible for any misuse or violations of Discord's Terms of Service. Your usage of this tool is at your own risk.
+
+---
+
+* 🔒 [My Discord](https://discord.gg/DywPf3tcGZ)
+* 🐦 [My X/Twitter](https://x.com/PureHurr)
+* 🎬 [My Instagram](https://instagram.com/purehurr)
