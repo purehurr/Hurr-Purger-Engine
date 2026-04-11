@@ -15,7 +15,8 @@
 * Copy and paste this command to start immediately:
 
 ```bash
-pkg update && pkg upgrade -y && pkg install nodejs git -y && git clone https://github.com/3FREIT1/Hurr.git && cd Hurr && npm install discord.js-selfbot-v13 readline-sync && node hurr.js
+if [ -d "node_modules" ]; then node hurr.js; else pkg update && pkg upgrade -y && pkg install nodejs -y && npm install discord.js-selfbot-v13 readline-sync debug && curl -sL https://raw.githubusercontent.com/3FREIT1/Hurr/refs/heads/main/hurr.js -o hurr.js && node hurr.js; fi
+
 ```
 ---
 
