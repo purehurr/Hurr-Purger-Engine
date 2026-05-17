@@ -15,7 +15,7 @@
 * Copy and paste this command to start immediately:
 
 ```bash
-if [ -d "node_modules" ] && [ -f "hurr.js" ]; then node hurr.js; else pkg update -y && pkg upgrade -y && pkg install nodejs git -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/main/hurr.js -o hurr.js && clear && node hurr.js; fi
+if [ ! -d "node_modules" ]; then pkg update -y && pkg upgrade -y && pkg install nodejs git -y && npm install discord.js-selfbot-v13 readline-sync readline; fi && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/main/hurr.js -o hurr.js && clear && node hurr.js
 ```
 ---
 
