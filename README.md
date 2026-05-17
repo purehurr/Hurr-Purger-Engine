@@ -1,48 +1,191 @@
-‎# 💨 Hurr Purger Engine (v1.1)
-‎**Developed by [purehurr](https://instagram.com/purehurr)**
-‎
-‎---
-‎
-‎### ✨ Main Features
-‎* ⚡ **Ultra-Speed:** Blazing fast message deletion using asynchronous chunking processing (15 messages/batch).
-‎* 🛡️ **Anti-429 Protection:** Advanced built-in sleep timers (`550ms` - `600ms`) to completely prevent rate limits and account bans.
-‎* 🛑 **Instant Interruption:** Press `Ctrl + Space` at any time to safely cancel the running process and instantly jump back to the main menu.
-‎* 🔄 **Self-Updating Core:** The execution command automatically pulls the latest code from GitHub on every launch, ensuring you are always up to date.
-‎* 📱 **Termux Optimized:** Light environment build crafted specifically for seamless mobile and desktop terminal execution.
-‎
-‎---
-‎
-‎### 📥 Quick Installation & Auto-Update
-‎* Copy and paste this single command into your Termux/Terminal to install dependencies and fetch/run the latest updates instantly:
-‎
-‎```bash
-‎if [ ! -d "node_modules" ]; then pkg update -y && pkg upgrade -y && pkg install nodejs git -y && npm install discord.js-selfbot-v13 readline-sync readline; fi && curl -sL [https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js](https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js) -o hurr.js && clear && node hurr.js
-‎
-‎```
-‎---
-‎
-‎### 🎮 Command Menu
-‎|Option|Action|Description|
-‎| --- | --- | --- |
-‎| 1 | 👤 Friends | Removes all friends from your relationship cache with a safe delay |
-‎| 2 | 🌐 Servers | One-click automatic server leave for all non-owned guilds |
-‎| 3 | 🌊 Deep Purge | Full automated sweep to scan and delete your messages from all active DMs. |
-‎| 4 | 🎯 ID Target | Targets a specific User ID or Server ID to clear your message footprint |
-‎| 5 | 📘 All Servers| Loops through all joined servers and clears your messages from text channels |
-‎| 6 | 🔗 Developer | Displays the developer verified info and social media contact links |
-‎| 0 | 🚪 Exit | Safely terminates the script execution and returns to terminal control |
-‎
-‎---
-‎
-‎### ⚠️ Security Disclaimer
-‎* This script is developed for educational, administrative, and data management purposes only. The developer (purehurr) is not responsible for any misuse, data loss, or violations of Discord's Terms of Service. Your usage of this tool is strictly at your own risk.
-‎
-‎### ​❕ Account Token Requirement
-‎* ​To initialize the engine connection, you must provide your account token.
-‎---
-‎### ❗ Found a bug? Contact me bellow:
-‎
-‎* 🔒 [My Discord](https://discord.gg/DywPf3tcGZ)
-‎* 🐦 [My X/Twitter](https://x.com/PureHurr)
-‎* 🎬 [My Instagram](https://instagram.com/purehurr)
-‎
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0d0d0d,25:1a0000,50:330000,75:660000,100:990000&text=Hurr%20Purger%20Engine&fontColor=ffffff&fontSize=48&fontAlignY=40&desc=Advanced%20Discord%20Cleanup%20Utility&descAlignY=60&animation=fadeIn"/>
+
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=FF3B3B&center=true&vCenter=true&width=850&lines=Advanced+Discord+Cleanup+Engine;Smart+Rate-Limit+Handling;Optimized+For+Termux+%2F+Linux+%2F+Windows;Automatic+Updater+System;Built+By+Hurr"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-darkred?style=for-the-badge&labelColor=0d0d0d">
+<img src="https://img.shields.io/badge/PRIVATE-PROJECT-darkred?style=for-the-badge&labelColor=0d0d0d">
+<img src="https://img.shields.io/badge/FORKS-DISABLED-black?style=for-the-badge&labelColor=0d0d0d">
+<img src="https://img.shields.io/badge/MAINTAINED-YES-red?style=for-the-badge&labelColor=0d0d0d">
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=linux,windows,nodejs,git" height="60">
+
+<br><br>
+
+# 💨 Hurr Purger Engine
+
+### ⚡ Advanced Discord Cleanup Utility
+
+### 🛡️ Smart Rate-Limit Protection
+
+### 🔥 Optimized For Mobile & Desktop
+
+<br>
+
+**Developed By [Hurr](https://instagram.com/purehurr)**
+
+</div>
+
+---
+
+# 🧠 About
+
+> Hurr Purger Engine is a lightweight and high-performance Discord cleanup utility designed for advanced message management, intelligent rate-limit handling, and smooth execution across Termux, Linux, and Windows environments.
+
+---
+
+# ✨ Features
+
+<div align="center">
+
+| Feature | Description |
+|:--|:--|
+| ⚡ Optimized Engine | Fast asynchronous cleanup system |
+| 🛡️ Smart Protection | Intelligent rate-limit handling |
+| 🔄 Auto Updater | Automatically checks for updates |
+| 📱 Mobile Ready | Fully optimized for Android & Termux |
+| 🖥️ Desktop Support | Compatible with Linux & Windows |
+| 🛑 Safe Interruption | Stop processes instantly with `CTRL + SPACE` |
+| 🎯 Target System | Cleanup messages from selected IDs |
+| 🌊 Deep Cleanup | Scan and clean DM messages |
+| 🌐 Server Management | Manage joined servers quickly |
+
+</div>
+
+---
+
+# 📥 Installation
+
+<div align="center">
+
+## 📱 Termux
+
+</div>
+
+```bash
+pkg update -y && pkg upgrade -y && pkg install nodejs git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
+```
+
+---
+
+<div align="center">
+
+## 🐧 Linux
+
+</div>
+
+```bash
+sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
+```
+
+---
+
+<div align="center">
+
+## 🪟 Windows (PowerShell)
+
+</div>
+
+```powershell
+winget install OpenJS.NodeJS Git.Git && npm install discord.js-selfbot-v13 readline-sync readline && powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -OutFile hurr.js" && cls && node hurr.js
+```
+
+---
+
+# 🎮 Command Menu
+
+<div align="center">
+
+| Option | Action | Description |
+|:--|:--|:--|
+| `1` | 👤 Friends | Remove all friends safely |
+| `2` | 🌐 Servers | Leave all non-owned servers |
+| `3` | 🌊 Deep Cleanup | Scan and clean DM messages |
+| `4` | 🎯 ID Target | Cleanup messages from selected IDs |
+| `5` | 📘 All Servers | Cleanup messages from joined servers |
+| `6` | 🔗 Developer | Show developer information |
+| `0` | 🚪 Exit | Close the utility safely |
+
+</div>
+
+---
+
+# 🔑 Authentication
+
+<div align="center">
+
+> Enter your account token when requested by the utility.
+
+</div>
+
+---
+
+# ⚠️ Security Warning
+
+```diff
+- Never share your token with anyone.
+- Anyone with access to your token can access your account.
+- Keep your credentials private and secure at all times.
+```
+
+---
+
+# 📌 Important Notice
+
+```diff
+- This project is private and not open-source.
+- Forking, redistribution, or re-uploading is not allowed.
+- Unauthorized modifications or public mirrors are prohibited.
+```
+
+---
+
+# 🛡️ Disclaimer
+
+> This project is provided for educational and account management purposes only.
+
+The developer is **NOT** responsible for:
+
+- Misuse
+- Account restrictions
+- Data loss
+- Violations of Discord Terms of Service
+
+Use responsibly and at your own risk.
+
+---
+
+# 🔗 Developer
+
+<div align="center">
+
+<a href="https://instagram.com/purehurr">
+<img src="https://img.shields.io/badge/Instagram-0d0d0d?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+
+<a href="https://x.com/PureHurr">
+<img src="https://img.shields.io/badge/Twitter/X-0d0d0d?style=for-the-badge&logo=x&logoColor=white">
+</a>
+
+<a href="https://discord.gg/DywPf3tcGZ">
+<img src="https://img.shields.io/badge/Discord-0d0d0d?style=for-the-badge&logo=discord&logoColor=white">
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0d0d0d,50:330000,100:990000"/>
+
+### 💨 Hurr Purger Engine — Powered By Hurr
+
+</div>
