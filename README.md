@@ -52,7 +52,6 @@
 | 🔄 Auto Updater | Automatically checks for updates |
 | 📱 Mobile Ready | Fully optimized for Android & Termux |
 | 🖥️ Desktop Support | Compatible with Linux & Windows |
-| 🛑 Safe Interruption | Stop processes instantly with `CTRL + SPACE` |
 | 🎯 Target System | Cleanup messages from selected IDs |
 | 🌊 Deep Cleanup | Scan and clean DM messages |
 | 🌐 Server Management | Manage joined servers quickly |
