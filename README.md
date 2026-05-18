@@ -107,7 +107,7 @@ winget install OpenJS.NodeJS Git.Git && npm install discord.js-selfbot-v13 readl
 | `1` | 👤 Friends | Remove all friends safely |
 | `2` | 🌐 Servers | Leave all non-owned servers |
 | `3` | 🌊 Deep Cleanup | Scan and clean DM messages |
-| `4` | 🎯 ID Target | Cleanup messages from selected IDs |
+| `4` | 🎯 ID Target | Cleanup messages from selected IDs in DMs/Guilds|
 | `5` | 📘 All Servers | Cleanup messages from joined servers |
 | `6` | 🔗 Developer | Show developer information |
 | `0` | 🚪 Exit | Close the utility safely |
