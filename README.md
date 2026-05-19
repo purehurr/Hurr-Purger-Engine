@@ -69,7 +69,7 @@
 </div>
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install nodejs git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
+pkg update -y && pkg upgrade -y && pkg install nodejs git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -z hurr.js -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
 ```
 
 ---
@@ -81,7 +81,7 @@ pkg update -y && pkg upgrade -y && pkg install nodejs git curl -y && npm install
 </div>
 
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
+sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm git curl -y && npm install discord.js-selfbot-v13 readline-sync readline && curl -z hurr.js -sL https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -o hurr.js && clear && node hurr.js
 ```
 
 ---
@@ -93,7 +93,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm git curl -
 </div>
 
 ```powershell
-winget install OpenJS.NodeJS Git.Git && npm install discord.js-selfbot-v13 readline-sync readline && powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -OutFile hurr.js" && cls && node hurr.js
+winget install OpenJS.NodeJS Git.Git --skip-dependencies; npm install discord.js-selfbot-v13 readline-sync readline; if ((Test-Path hurr.js) -and ((Invoke-WebRequest https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -Method Head).Headers['Last-Modified'] -as [DateTime] -le (Get-Item hurr.js).LastWriteTime)) { write-host "الكود محدث تلقائياً!" } else { Invoke-WebRequest https://raw.githubusercontent.com/purehurr/Hurr-Purger-Engine/refs/heads/main/hurr.js -OutFile hurr.js }; cls; node hurr.js
 ```
 
 ---
